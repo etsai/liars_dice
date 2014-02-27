@@ -6,6 +6,6 @@ describe Player do
   end
 
   context "associations" do
-    it { should belong_to(:game) }
+    it { should belong_to :game }
   end
 end
