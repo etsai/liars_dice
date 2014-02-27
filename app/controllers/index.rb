@@ -1,5 +1,3 @@
-require 'pry'
-
 @client = Twilio::REST::Client.new(ENV['ACCOUNT_SID'], ENV['AUTH_TOKEN'])
 @current_player = nil
 @current_game = nil
